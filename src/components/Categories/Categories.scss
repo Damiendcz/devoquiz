@@ -1,0 +1,13 @@
+.categories__container {
+  // margin-top: 18.75rem;
+  background-color: rgb(209, 209, 209);
+  border-radius: 1rem;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    li {
+      list-style-type: none;
+      margin-right: 1rem;
+    }
+  }
+}

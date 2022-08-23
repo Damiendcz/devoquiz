@@ -1,0 +1,41 @@
+.level__container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .level__quiz__container {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: 100%;
+
+    .level__answer__btn {
+      //reset button styles
+      margin-top: 3rem;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      border-radius: 1rem;
+      margin: 2rem 0;
+      padding: 1rem .5rem;
+      display: block;
+      width: 100%;
+
+    }
+  }
+  .level__answer__container {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    display: block;
+  }
+}
+
+.border {
+  box-shadow: rgb(94, 82, 146, 0.377) 0px 2px 4px, rgb(94, 82, 146, 0.377) 0px 7px 13px -3px, rgba(94, 82, 146, 0.377) 0px -3px 0px inset !important;
+}
+

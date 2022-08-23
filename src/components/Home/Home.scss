@@ -1,0 +1,19 @@
+.home__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .intro__container {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      width: 31rem;
+    }
+  }
+
+  
+}
